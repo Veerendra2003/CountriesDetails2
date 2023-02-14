@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, rgb(191, 191, 225), rgb(191, 252, 191), rgb(252, 252, 141));
+     font-family: 'Roboto Mono', monospace;
+}
+div {
+    text-align: center;
+    margin: 2%;   
+}
+div input {
+    padding: 2% 5%;
+    font-weight: bolder;
+    padding: 1%;
+}
+select{
+    padding: 1%;
+}
+.details {  
+   display: grid;
+   inherits: unset;
+   background:linear-gradient(90deg,rgb(white,white,white));
+   width: 50%;
+   padding: 2%;
+   position: relative;
+   left: 20%;
+   place-items: center;  
+    border-radius: 15%; 
+    font-size: 25px;        
+    border: 2px solid black;   
+}
